@@ -1,0 +1,5 @@
+numpy
+pandas==1.5.3
+scikit-learn
+scipy==1.10.1
+pyyaml
