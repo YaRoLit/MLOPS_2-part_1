@@ -1,6 +1,4 @@
 [core]
     remote = ssh-stor
-['remote "ssh-storage"']
-    url = ssh://data_srv_admin@data-srv/opt/datasets
 ['remote "ssh-stor"']
     url = ssh://data_srv_admin@data-srv/opt/datasets
