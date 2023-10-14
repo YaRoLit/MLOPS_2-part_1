@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  drop-columns:
+    cmd: python3 scripts/DATA_SCRIPTS/column_dropper.py
+  fill-NaNs-numerical-cols:
+    cmd: python3 scripts/DATA_SCRIPTS/num_imputer.py
+  fill-NaNs-categorial-cols:
+    cmd: python3 scripts/DATA_SCRIPTS/cat_imputer.py
+  one-hot-encoding:
+    cmd: python3 scripts/DATA_SCRIPTS/OHE.py
+  create-model:
+    cmd: python3 scripts/MODEL_SCRIPTS/model_0.py
