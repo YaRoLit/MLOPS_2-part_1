@@ -1,0 +1,4 @@
+split:
+  split_ratio: 0.25
+alpha:
+  alpha: 0.7

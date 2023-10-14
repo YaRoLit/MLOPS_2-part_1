@@ -9,4 +9,9 @@ stages:
   one-hot-encoding:
     cmd: python3 scripts/DATA_SCRIPTS/OHE.py
   create-model:
-    cmd: python3 scripts/MODEL_SCRIPTS/model_0.py
+    cmd: python3 scripts/MODEL_SCRIPTS/model_1.py
+    outs:
+    - path: score.json
+      hash: md5
+      md5: 3d1cf634beec903af3c9120033933ac5
+      size: 64

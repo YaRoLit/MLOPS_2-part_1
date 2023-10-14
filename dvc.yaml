@@ -8,4 +8,6 @@ stages:
   one-hot-encoding:
     cmd: python3 scripts/DATA_SCRIPTS/OHE.py
   create-model:
-    cmd: python3 scripts/MODEL_SCRIPTS/model_0.py
+    cmd: python3 scripts/MODEL_SCRIPTS/model_1.py
+    metrics:
+    - score.json
